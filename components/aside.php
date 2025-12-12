@@ -19,6 +19,12 @@
         <li> <a href="index.php?params=crias" class="nav-link link-body-emphasis <?php echo $view === 'crias' ? 'active' : '' ?>">
                 Crias
             </a> </li>
+        <li> <a href="index.php?params=marcas" class="nav-link link-body-emphasis <?php echo $view === 'marcas' ? 'active' : '' ?>">
+                Marcas
+            </a> </li>
+        <li> <a href="index.php?params=negociaciones" class="nav-link link-body-emphasis <?php echo $view === 'negociaciones' ? 'active' : '' ?>">
+                Negociaciones
+            </a> </li>
     </ul>
     <hr>
     <div class="dropdown"> <a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/imgs/avatar.jpg" alt="" width="32" height="32" class="rounded-circle me-2"> <strong>Usuario</strong> </a>

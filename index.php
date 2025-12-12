@@ -14,7 +14,6 @@ if (isset($_GET['params']) && !empty(trim($_GET['params']))) {
     <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.0/bootstrap.min.css">
 </head>
 <body>
-    <?php if($view !== 'login'): ?>
     <main class="container-fluid">
         <div class="row">
             <div class="col-2">
@@ -26,8 +25,5 @@ if (isset($_GET['params']) && !empty(trim($_GET['params']))) {
         </div>
     </main>
     <script src="assets/vendor/bootstrap-5.3.0/bootstrap.bundle.min.js"></script>
-    <?php else: ?>
-        <?php include_once 'page-login.php'; ?>
-    <?php endif; ?>
 </body>
 </html>

@@ -100,7 +100,7 @@ require_once 'core/crias-crud.php';
                         </a>
                     </td>
                     <td>
-                        <a class="btn btn-sm btn-info" href="index.php?view=crias&edit=<?= $c['id'] ?>">Editar</a>
+                        <a class="btn btn-sm btn-info" href="index.php?params=crias&edit=<?= $c['id'] ?>">Editar</a>
                         <form method="POST" style="display:inline-block;" onsubmit="return confirm('¿Eliminar esta cría?');">
                             <input type="hidden" name="action" value="delete">
                             <input type="hidden" name="cria_id" value="<?= $c['id'] ?>">
