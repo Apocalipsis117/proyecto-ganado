@@ -1,5 +1,9 @@
 <?php
-require_once 'core/auth.php';
+// Verificar si el usuario ya está logueado
+if (isset($_SESSION['user_id'])) {
+    header("Location: index.php?params=home"); // Redirigir al home u otra página
+    exit;
+}
 require_once 'core/usuario-login.php';
 ?>
 

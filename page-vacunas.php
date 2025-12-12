@@ -2,6 +2,7 @@
 require_once 'core/config.php';
 require_once 'core/vacunas.php';
 require_once 'core/vacunas-crud.php';
+require_once 'core/auth.php';
 ?>
 <div class="container py-4">
     <h2 class="mb-3">CRUD de Vacunas</h2>

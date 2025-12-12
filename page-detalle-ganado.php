@@ -1,6 +1,7 @@
 <?php
 require_once 'core/config.php';
 require_once 'core/ganado.php';
+require_once 'core/auth.php';
 
 $ganadoModel = new Ganado($pdo);
 $id = intval($_GET['id'] ?? 0);

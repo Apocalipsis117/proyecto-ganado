@@ -3,5 +3,5 @@ session_start();
 session_unset();
 session_destroy();
 
-header('Location: index.php?params=login');
+header('Location: page-login.php');
 exit;

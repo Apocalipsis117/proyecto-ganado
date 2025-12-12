@@ -2,6 +2,7 @@
 require_once 'core/config.php';
 require_once 'core/negociaciones.php';
 require_once 'core/negociaciones-crud.php';
+require_once 'core/auth.php';
 ?>
 <div class="container py-4">
     <h2 class="mb-3">CRUD de Negociaciones</h2>
